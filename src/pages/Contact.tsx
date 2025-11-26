@@ -74,8 +74,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['+91 93168 37185'],
-      action: () => window.open('tel:+919316837185', '_self'),
+      details: ['+91 95372 49333'],
+      action: () => window.open('tel:+919537249333', '_self'),
     },
     {
       icon: Mail,
@@ -177,7 +177,7 @@ const Contact = () => {
                       onChange={handleInputChange}
                       required
                       className="w-full"
-                      placeholder="+91 93168 37185"
+                      placeholder="+91 95372 49333"
                     />
                   </div>
                 </div>
@@ -285,7 +285,7 @@ const Contact = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              onClick={() => window.open('tel:+919316837185', '_self')}
+              onClick={() => window.open('tel:+919537249333', '_self')}
               className="bg-brand-accent hover:bg-brand-accent/90 text-brand-dark font-inter font-semibold px-8 py-3"
             >
               <Phone className="w-5 h-5 mr-2" />
