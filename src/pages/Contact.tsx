@@ -85,6 +85,21 @@ const Contact = () => {
     },
   ];
 
+  const serviceOptions = [
+    'Pain Relief Therapy',
+    'Injury Rehabilitation',
+    'Sports Physiotherapy',
+    'Orthopedic Therapy',
+    'Strength & Conditioning',
+    'Sciatica Treatment',
+    "Tennis Elbow & Golfer's Elbow",
+    'Frozen Shoulder Therapy',
+    'Back Pain Management',
+    'Arthritis Care',
+    'Postural Correction',
+    'Other'
+  ];
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -208,15 +223,11 @@ const Contact = () => {
                     className="w-full px-3 py-2 border border-input rounded-md bg-background font-inter"
                   >
                     <option value="">Select a service</option>
-                    <option value="Orthopedic Physiotherapy">Orthopedic Physiotherapy</option>
-                    <option value="Neurological Physiotherapy">Neurological Physiotherapy</option>
-                    <option value="Sports Injury Rehabilitation">Sports Injury Rehabilitation</option>
-                    <option value="Geriatric Physiotherapy">Geriatric Physiotherapy</option>
-                    <option value="Pediatric Physiotherapy">Pediatric Physiotherapy</option>
-                    <option value="Cardiopulmonary Physiotherapy">Cardiopulmonary Physiotherapy</option>
-                    <option value="Post-operative Rehabilitation">Post-operative Rehabilitation</option>
-                    <option value="Pain Management">Pain Management</option>
-                    <option value="Other">Other</option>
+                    {serviceOptions.map((option, index) => (
+                      <option key={index} value={option}>
+                        {option}
+                      </option>
+                    ))}
                   </select>
                 </div>
 
