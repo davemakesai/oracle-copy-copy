@@ -91,7 +91,7 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4" data-aos="fade-up" data-aos-delay="800">
               <Button
                 onClick={handleContactClick}
-                className="bg-brand-accent hover:bg-brand-accent/90 text-brand-dark font-inter font-semibold px-8 py-3 rounded-full transition-all duration-200 gap-2"
+                className="w-fit bg-brand-accent hover:bg-brand-accent/90 text-brand-dark font-inter font-semibold px-8 py-3 rounded-full transition-all duration-200 gap-2"
               >
                 <Phone className="w-5 h-5" />
                 Contact Us
@@ -99,7 +99,7 @@ const HeroSection = () => {
               <Button
                 onClick={handleLearnMore}
                 variant="outline"
-                className="border-brand-white bg-brand-white text-brand-dark hover:bg-brand-white/90 font-inter font-semibold px-8 py-3 rounded-full transition-all duration-200 gap-2"
+                className="w-fit border-brand-white bg-brand-white text-brand-dark hover:bg-brand-white/90 font-inter font-semibold px-8 py-3 rounded-full transition-all duration-200 gap-2"
               >
                 Learn More
                 <ArrowRight className="w-5 h-5" />
