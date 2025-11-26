@@ -208,12 +208,15 @@ const Contact = () => {
                     className="w-full px-3 py-2 border border-input rounded-md bg-background font-inter"
                   >
                     <option value="">Select a service</option>
-                    <option value="pain-relief">Pain Relief Therapy</option>
-                    <option value="injury-rehab">Injury Rehabilitation</option>
-                    <option value="sports-physio">Sports Physiotherapy</option>
-                    <option value="neuro-rehab">Neurological Rehabilitation</option>
-                    <option value="cardio-rehab">Cardiovascular Rehabilitation</option>
-                    <option value="strength-conditioning">Strength & Conditioning</option>
+                    <option value="Orthopedic Physiotherapy">Orthopedic Physiotherapy</option>
+                    <option value="Neurological Physiotherapy">Neurological Physiotherapy</option>
+                    <option value="Sports Injury Rehabilitation">Sports Injury Rehabilitation</option>
+                    <option value="Geriatric Physiotherapy">Geriatric Physiotherapy</option>
+                    <option value="Pediatric Physiotherapy">Pediatric Physiotherapy</option>
+                    <option value="Cardiopulmonary Physiotherapy">Cardiopulmonary Physiotherapy</option>
+                    <option value="Post-operative Rehabilitation">Post-operative Rehabilitation</option>
+                    <option value="Pain Management">Pain Management</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
 
