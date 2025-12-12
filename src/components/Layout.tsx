@@ -5,6 +5,7 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './Navbar';
 import ScrollToTop from './ScrollToTop';
 import FloatingButtons from './FloatingButtons';
+import { useSeo } from '@/hooks/useSeo';
 
 const Layout = () => {
   useEffect(() => {
@@ -14,6 +15,8 @@ const Layout = () => {
       easing: 'ease-out-cubic',
     });
   }, []);
+
+  useSeo(); // Call the SEO hook here
 
   return (
     <div className="min-h-screen">

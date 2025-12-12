@@ -7,6 +7,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { useToast } from '@/hooks/use-toast';
 import Footer from '@/components/Footer';
 import contactHero from '@/assets/contact-hero.jpg';
+import SchemaMarkup from '@/components/SchemaMarkup';
+import { LOCAL_BUSINESS_SCHEMA } from '@/data/seoData.ts';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -102,6 +104,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen">
+      <SchemaMarkup schema={LOCAL_BUSINESS_SCHEMA} />
       {/* Hero Section */}
       <section className="relative py-20 pt-32" style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${contactHero})`,
@@ -273,7 +276,7 @@ const Contact = () => {
               </h2>
               <div className="bg-secondary/20 rounded-lg overflow-hidden h-96">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3719.971880483946!2d72.77865270972558!3d21.193275982028563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDExJzM1LjgiTiA3MsKwNDYnNTIuNCJF!5e0!3m2!1sen!2sin!4v1753876160409!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3719.971880483946!2d72.77865270972558!3d21.193275982028563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dff20d4106b%3A0x9457afb54f420541!2sOracle%20Physiotherapy%20clinic%20-Sports%20Rehabilitation%2FOrthopedic%2FSpine%20Physiotherapy%2FBest%20Physiotherapy%2FBest%20Physiotherapy%20in%20Surat!5e0!3m2!1sen!2sin!4v1753876160409!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
