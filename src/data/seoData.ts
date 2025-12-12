@@ -23,16 +23,16 @@ export const PAGE_SEO: Record<string, SeoEntry> = {
     description: 'Surat’s leading physiotherapy clinic. We offer expert pain relief, injury rehabilitation, and personalized care to help you move better and live stronger.',
   },
   '/about': {
-    title: 'About Dr. Amit Mehta & Oracle Physiotherapy | Surat',
+    title: 'About Dr. Amit Mehta | Best physiotherapist in Surat',
     description: 'Learn about Dr. Amit Mehta, our mission, and our commitment to providing personalized, evidence-based orthopedic physiotherapy care in Surat since 2019.',
   },
   '/services': {
-    title: 'Specialized Physiotherapy Services | Oracle Physiotherapy',
+    title: 'Best Physiotherapy Services near me | Oracle Physiotherapy',
     description: 'Explore our comprehensive range of services including pain relief, sports injury rehab, orthopedic therapy, sciatica treatment, and home visits.',
   },
   '/contact': {
-    title: 'Contact Oracle Physiotherapy | Book Appointment in Surat',
-    description: 'Get in touch with Oracle Physiotherapy to schedule your consultation. Find our clinic location, working hours, phone number, and email.',
+    title: 'Contact Oracle Physiotherapy | Book Appointment',
+    description: 'Get in touch with Oracle Physiotherapy Clinic to schedule your consultation. Find our clinic location, working hours, phone number, and email.',
   },
   '/gallery': {
     title: 'Clinic Gallery | Oracle Physiotherapy Facilities & Equipment',
