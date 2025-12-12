@@ -26,7 +26,7 @@ const FloatingButtons = () => {
 
       {/* Call Button */}
       <a
-        href="tel:+919316837185"
+        href="tel:+919537249333"
         className="fixed bottom-6 right-6 z-50 w-16 h-16 bg-blue-600 hover:bg-blue-700 rounded-full flex items-center justify-center shadow-lg animate-subtle-bounce hover:animate-none transition-transform transform hover:scale-110"
         aria-label="Call Now"
       >
