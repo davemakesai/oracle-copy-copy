@@ -23,7 +23,7 @@ const About = () => {
             </h1>
             <p className="font-inter text-xl text-brand-white/90 max-w-3xl mx-auto leading-relaxed">
               Leading physiotherapy clinic in Surat, dedicated to helping the community 
-              achieve optimal health and wellness through expert care and innovative treatments.
+              achieve optimal health and wellness through expert care and best treatments.
             </p>
           </div>
         </div>
